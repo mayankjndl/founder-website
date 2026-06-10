@@ -3947,3 +3947,11 @@ body.nav-open {
   .contact-info-block { gap: var(--space-4); }
   .availability-card { padding: var(--space-6); }
 }
+
+/* ─── SOCIAL LINK CARDS (Contact Page) ─────────────────────── */
+
+.social-link-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--clr-text-primary);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
