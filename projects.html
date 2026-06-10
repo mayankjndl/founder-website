@@ -15,7 +15,7 @@
   <meta name="twitter:title"       content="Projects & Case Studies — Piyush Anil Jadhav">
   <meta name="twitter:description" content="Real AI systems, real outcomes. Portfolio of AI Agents, Revenue OS, RAG Systems, and Automation work.">
   <meta name="twitter:image"       content="https://piyushjadhav.com/assets/images/og-image.webp">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
   <script>(function(){try{if(localStorage.getItem('pj-theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -98,99 +98,12 @@
     <!-- END §1 DARK HERO -->
 
 
-    <!-- §2 ─ MAGAZINE CASE STUDY (Revenue OS) ────────────── -->
+    <!-- §2 ─ MAGAZINE CASE STUDY (Hidden until featured case study available) ────────────── -->
+    <!--
     <section class="section" id="featured-case-study" aria-labelledby="case-study-heading">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">Featured Case Study</span>
-          <h2 class="section-heading" id="case-study-heading">The Revenue OS Build</h2>
-        </div>
-
-        <div class="case-study-featured reveal" id="revenue-os" style="margin-top: var(--space-10);" data-category="revenue-os">
-
-          <!-- Left: Visual -->
-          <div class="case-study-cover">
-            <div class="case-study-diagram" style="text-align: center;">
-              <!-- SVG pipeline diagram -->
-              <svg viewBox="0 0 220 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width: 100%; max-width: 200px;">
-                <!-- Node: Lead Capture -->
-                <rect x="55" y="10" width="110" height="40" rx="8" fill="rgba(91,141,239,0.15)" stroke="rgba(91,141,239,0.4)" stroke-width="1"/>
-                <text x="110" y="35" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="11" font-family="system-ui">Lead Capture</text>
-                <!-- Arrow -->
-                <line x1="110" y1="50" x2="110" y2="72" stroke="rgba(91,141,239,0.35)" stroke-width="1.5" stroke-dasharray="3 3"/>
-                <polygon points="105,70 115,70 110,80" fill="rgba(91,141,239,0.5)"/>
-                <!-- Node: AI Scoring -->
-                <rect x="35" y="82" width="150" height="40" rx="8" fill="rgba(91,141,239,0.20)" stroke="rgba(91,141,239,0.5)" stroke-width="1.5"/>
-                <text x="110" y="107" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="11" font-family="system-ui">AI Qualification + Scoring</text>
-                <!-- Arrow -->
-                <line x1="110" y1="122" x2="110" y2="144" stroke="rgba(91,141,239,0.35)" stroke-width="1.5" stroke-dasharray="3 3"/>
-                <polygon points="105,142 115,142 110,152" fill="rgba(91,141,239,0.5)"/>
-                <!-- Node: CRM Routing -->
-                <rect x="35" y="154" width="150" height="40" rx="8" fill="rgba(91,141,239,0.15)" stroke="rgba(91,141,239,0.4)" stroke-width="1"/>
-                <text x="110" y="179" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="11" font-family="system-ui">CRM Routing + Follow-up</text>
-                <!-- Arrow -->
-                <line x1="110" y1="194" x2="110" y2="216" stroke="rgba(91,141,239,0.35)" stroke-width="1.5" stroke-dasharray="3 3"/>
-                <polygon points="105,214 115,214 110,224" fill="rgba(91,141,239,0.5)"/>
-                <!-- Node: Dashboard -->
-                <rect x="35" y="226" width="150" height="40" rx="8" fill="rgba(91,141,239,0.25)" stroke="rgba(91,141,239,0.6)" stroke-width="1.5"/>
-                <text x="110" y="251" text-anchor="middle" fill="rgba(255,255,255,0.95)" font-size="11" font-family="system-ui">Live Revenue Dashboard</text>
-              </svg>
-              <p style="color: rgba(255,255,255,0.35); font-size: 11px; margin-top: 1.5rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;">Revenue OS Architecture</p>
-            </div>
-          </div>
-
-          <!-- Right: Content -->
-          <div class="case-study-content">
-            <span class="badge" style="margin-bottom: var(--space-4); display: inline-flex;">Revenue OS &middot; B2B SaaS</span>
-            <h3 style="font-size: clamp(var(--text-xl), 2vw, var(--text-2xl)); font-weight: var(--weight-extrabold); color: var(--clr-text-primary); letter-spacing: var(--tracking-snug); line-height: var(--leading-snug);">
-              Full-Stack Revenue Operating System for Growth-Stage SaaS
-            </h3>
-
-            <div class="case-study-challenge" style="margin-top: var(--space-5);">
-              <div class="case-study-challenge-label">The Problem</div>
-              <p style="font-size: var(--text-sm); color: var(--clr-text-body); line-height: var(--leading-relaxed);">
-                A 35-person SaaS company had three years of customer data living in an unstructured HubSpot CRM, no pipeline visibility for leadership, inconsistent rep follow-up, and zero automation across the entire sales motion. Deals were slipping not because of product — but because of process.
-              </p>
-            </div>
-
-            <ul class="case-study-solution-list">
-              <li>Audited 3 years of CRM data; rebuilt contact, company, and deal pipeline structure from scratch</li>
-              <li>Designed and deployed an AI-powered lead scoring model using firmographic and behavioural signals</li>
-              <li>Built 7-touch automated follow-up sequences in n8n, triggered by HubSpot lifecycle stage changes</li>
-              <li>Created a real-time Metabase dashboard with pipeline health, velocity, conversion, and forecast views</li>
-              <li>Implemented a monthly revenue reporting engine with automated variance analysis and exec-ready exports</li>
-            </ul>
-
-            <div class="outcome-box">
-              <div class="outcome-label">Verified Outcomes — 90 Days Post-Launch</div>
-              <div class="outcome-metrics">
-                <div class="metric-item">
-                  <span class="metric-value">3×</span>
-                  <div class="metric-label">Pipeline visibility</div>
-                </div>
-                <div class="metric-item">
-                  <span class="metric-value">40%</span>
-                  <div class="metric-label">Deal velocity</div>
-                </div>
-                <div class="metric-item">
-                  <span class="metric-value">100%</span>
-                  <div class="metric-label">Follow-up automated</div>
-                </div>
-                <div class="metric-item">
-                  <span class="metric-value">6 wk</span>
-                  <div class="metric-label">Discovery to live</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="tags-row" style="margin-top: var(--space-5);">
-              <span class="tag">n8n</span><span class="tag">HubSpot</span><span class="tag">Supabase</span><span class="tag">Metabase</span><span class="tag">Python</span>
-            </div>
-          </div>
-
-        </div>
-      </div>
+      ... hidden ...
     </section>
+    -->
     <!-- END §2 CASE STUDY -->
 
 
@@ -199,131 +112,72 @@
       <div class="container">
         <div class="section-header centered reveal">
           <span class="eyebrow">All Projects</span>
-          <h2 class="section-heading" id="projects-grid-heading">The Full Portfolio</h2>
+          <h2 class="section-heading" id="projects-grid-heading">The Portfolio</h2>
         </div>
 
-        <div class="grid grid-3" style="margin-top: var(--space-12);" id="projects-container">
+        <div class="grid grid-2" style="margin-top: var(--space-12);" id="projects-container">
 
-          <!-- Project 1: AI Lead Agent -->
+          <!-- Project 1 -->
           <div class="card card-hover project-card reveal reveal-delay-1" data-category="ai-agents">
             <div class="project-card-header">
-              <span class="badge">AI Agent</span>
-              <span class="project-stat-pill">60% faster ToFu</span>
+              <span class="badge">AI Chatbot</span>
             </div>
-            <h3 class="card-title">Autonomous Lead Qualification Agent</h3>
-            <p class="card-body" style="font-size: var(--text-sm); opacity: 0.8; line-height: 1.5;">
-              LLM agent qualifying and routing leads in &lt;90 seconds. 24/7 coverage.
+            <h3 class="card-title">AI Customer Support Chatbot</h3>
+            <p class="card-body" style="font-size: var(--text-sm); line-height: 1.5; color: var(--clr-text-body);">
+              <strong>The Problem:</strong> The client needed an automated solution to handle repetitive customer inquiries and reduce response times.<br><br>
+              <strong>The Solution:</strong> Developed an AI-powered chatbot integrated with business knowledge bases and automated workflows.<br><br>
+              <strong>The Result:</strong> Improved customer response efficiency and reduced manual support workload.
             </p>
-            <div class="tags-row" style="margin: var(--space-4) 0;">
-              <span class="tag">LangChain</span><span class="tag">OpenAI</span><span class="tag">n8n</span><span class="tag">HubSpot</span>
-            </div>
-            <div class="project-card-footer">
-              <div class="tags-row"><span class="tag-accent tag">B2B SaaS</span></div>
-              <a href="#featured-case-study" class="link-arrow" style="font-size: var(--text-sm);">
-                Details
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-              </a>
+            <div class="project-card-footer" style="margin-top: var(--space-4);">
+              <div class="tags-row"><span class="tag-accent tag">Business Services</span></div>
             </div>
           </div>
 
-          <!-- Project 2: Revenue OS -->
-          <div class="card card-hover project-card reveal reveal-delay-2" data-category="revenue-os">
+          <!-- Project 2 -->
+          <div class="card card-hover project-card reveal reveal-delay-2" data-category="bi">
             <div class="project-card-header">
-              <span class="badge">Revenue OS</span>
-              <span class="project-stat-pill">3× visibility</span>
+              <span class="badge">Machine Learning</span>
             </div>
-            <h3 class="card-title">Full-Stack Revenue Operating System</h3>
-            <p class="card-body" style="font-size: var(--text-sm); opacity: 0.8; line-height: 1.5;">
-              End-to-end RevOps: CRM rebuild, AI lead scoring, sequences, and live dashboards.
+            <h3 class="card-title">UPI Fraud Detection System</h3>
+            <p class="card-body" style="font-size: var(--text-sm); line-height: 1.5; color: var(--clr-text-body);">
+              <strong>The Problem:</strong> Need to identify potentially fraudulent UPI transactions using machine learning techniques.<br><br>
+              <strong>The Solution:</strong> Built a machine learning-based fraud detection system utilizing transaction pattern analysis and anomaly detection.<br><br>
+              <strong>The Result:</strong> Created a scalable framework for identifying suspicious transaction behavior and supporting fraud prevention efforts.
             </p>
-            <div class="tags-row" style="margin: var(--space-4) 0;">
-              <span class="tag">n8n</span><span class="tag">HubSpot</span><span class="tag">Metabase</span><span class="tag">Supabase</span>
-            </div>
-            <div class="project-card-footer">
-              <div class="tags-row"><span class="tag-accent tag">Growth-Stage SaaS</span></div>
-              <a href="#revenue-os" class="link-arrow" style="font-size: var(--text-sm);">
-                Details
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-              </a>
+            <div class="project-card-footer" style="margin-top: var(--space-4);">
+              <div class="tags-row"><span class="tag-accent tag">FinTech / Academic Research</span></div>
             </div>
           </div>
 
-          <!-- Project 3: Private RAG -->
-          <div class="card card-hover project-card reveal reveal-delay-3" data-category="rag">
-            <div class="project-card-header">
-              <span class="badge">RAG System</span>
-              <span class="project-stat-pill">4-week delivery</span>
-            </div>
-            <h3 class="card-title">Private Enterprise Knowledge Base (RAG)</h3>
-            <p class="card-body" style="font-size: var(--text-sm); opacity: 0.8; line-height: 1.5;">
-              Query 5,000+ private documents naturally. Zero data sent to external APIs.
-            </p>
-            <div class="tags-row" style="margin: var(--space-4) 0;">
-              <span class="tag">LangChain</span><span class="tag">Pinecone</span><span class="tag">OpenAI</span><span class="tag">Supabase</span>
-            </div>
-            <div class="project-card-footer">
-              <div class="tags-row"><span class="tag-accent tag">Enterprise Services</span></div>
-              <a href="#technical-deep-dive" class="link-arrow" style="font-size: var(--text-sm);">
-                Architecture
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Project 4: Sales BI Dashboard -->
-          <div class="card card-hover project-card reveal reveal-delay-4" data-category="bi">
-            <div class="project-card-header">
-              <span class="badge">BI Dashboard</span>
-              <span class="project-stat-pill">Real-time</span>
-            </div>
-            <h3 class="card-title">Executive Sales Intelligence Dashboard</h3>
-            <p class="card-body" style="font-size: var(--text-sm); opacity: 0.8; line-height: 1.5;">
-              Python/SQL pipeline feeding a Metabase dashboard. 20+ KPIs with rolling forecasts.
-            </p>
-            <div class="tags-row" style="margin: var(--space-4) 0;">
-              <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Metabase</span><span class="tag">Supabase</span>
-            </div>
-            <div class="project-card-footer">
-              <div class="tags-row"><span class="tag-accent tag">IT Services</span></div>
-              <span style="font-size: var(--text-xs); color: var(--clr-text-muted);">Case study coming</span>
-            </div>
-          </div>
-
-          <!-- Project 5: Multi-Agent Workflow -->
+          <!-- Project 3 -->
           <div class="card card-hover project-card reveal reveal-delay-1" data-category="ai-agents">
             <div class="project-card-header">
-              <span class="badge">AI Agent</span>
-              <span class="project-stat-pill">Multi-agent</span>
+              <span class="badge">Generative AI</span>
             </div>
-            <h3 class="card-title">Multi-Agent Outbound Prospecting System</h3>
-            <p class="card-body">
-              Orchestrated system of 4 agents: a Researcher agent enriching ICP prospects, a Copywriter agent generating personalized outreach, a Sequencer agent scheduling send timing, and a CRM-Sync agent updating pipeline — all coordinated via LangGraph.
+            <h3 class="card-title">AI Virtual Interior Design Platform</h3>
+            <p class="card-body" style="font-size: var(--text-sm); line-height: 1.5; color: var(--clr-text-body);">
+              <strong>The Problem:</strong> Users struggled to visualize furnished interiors before renovation or purchase decisions.<br><br>
+              <strong>The Solution:</strong> Developed an AI-based virtual interior design solution using deep learning models including CycleGAN, ControlNet, Stable Diffusion, and YOLO.<br><br>
+              <strong>The Result:</strong> Enabled realistic room visualization and accelerated design decision-making.
             </p>
-            <div class="tags-row" style="margin: var(--space-4) 0;">
-              <span class="tag">LangGraph</span><span class="tag">OpenAI</span><span class="tag">n8n</span><span class="tag">Apollo.io</span>
-            </div>
-            <div class="project-card-footer">
-              <div class="tags-row"><span class="tag-accent tag">B2B SaaS</span></div>
-              <span style="font-size: var(--text-xs); color: var(--clr-text-muted);">In progress</span>
+            <div class="project-card-footer" style="margin-top: var(--space-4);">
+              <div class="tags-row"><span class="tag-accent tag">Interior Design / PropTech</span></div>
             </div>
           </div>
 
-          <!-- Project 6: Power BI BI Suite -->
+          <!-- Project 4 -->
           <div class="card card-hover project-card reveal reveal-delay-2" data-category="bi">
             <div class="project-card-header">
               <span class="badge">BI &amp; Analytics</span>
-              <span class="project-stat-pill">Power BI</span>
             </div>
-            <h3 class="card-title">Operational BI Suite — Manufacturing Client</h3>
-            <p class="card-body">
-              Full Power BI implementation: 6 report pages covering ops, inventory, procurement, and finance KPIs. Python/Pandas ETL pipeline ingesting ERP data daily. Role-based access controls for department-level visibility.
+            <h3 class="card-title">Business Intelligence Dashboard</h3>
+            <p class="card-body" style="font-size: var(--text-sm); line-height: 1.5; color: var(--clr-text-body);">
+              <strong>The Problem:</strong> Organizations lacked centralized reporting and actionable insights.<br><br>
+              <strong>The Solution:</strong> Built data analytics dashboards and reporting systems to support business decision-making.<br><br>
+              <strong>The Result:</strong> Improved visibility into operational and performance metrics.
             </p>
-            <div class="tags-row" style="margin: var(--space-4) 0;">
-              <span class="tag">Power BI</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">DAX</span>
-            </div>
-            <div class="project-card-footer">
-              <div class="tags-row"><span class="tag-accent tag">Manufacturing</span></div>
-              <span style="font-size: var(--text-xs); color: var(--clr-text-muted);">NDA — details on request</span>
+            <div class="project-card-footer" style="margin-top: var(--space-4);">
+              <div class="tags-row"><span class="tag-accent tag">Business Analytics</span></div>
             </div>
           </div>
 
@@ -533,9 +387,9 @@
           <a href="index.html" class="footer-logo"><span class="footer-logo-name">Piyush Jadhav</span><span class="footer-logo-company">Imperion Data Systems</span></a>
           <p class="footer-tagline">Building AI systems and revenue infrastructure for growth-stage companies.</p>
           <div class="footer-social">
-            <a href="#LINKEDIN_PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+            <a href="https://www.linkedin.com/in/-piyush-jadhav" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
             <a href="https://wa.me/918308755482" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></a>
-            <a href="mailto:PLACEHOLDER@imperiondata.com" class="social-link" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></a>
+            <a href="mailto:info.imperiondatasystems@gmail.com" class="social-link" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></a>
           </div>
         </div>
         <div class="footer-nav-col"><h3 class="footer-col-heading">Navigation</h3><ul class="footer-links" role="list"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="expertise.html">Expertise</a></li><li><a href="insights.html">Insights</a></li><li><a href="contact.html">Contact</a></li></ul></div>
