@@ -534,8 +534,8 @@ button,
 .btn-primary:hover {
   background-color: var(--clr-cta-hover);
   border-color: var(--clr-cta-hover);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 8px 24px var(--clr-accent-glow);
-  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1), 0 0 0 4px var(--clr-accent-glow);
+  transform: translateY(-2px);
 }
 
 /* Outline button */
@@ -3939,6 +3939,10 @@ body.nav-open {
 }
 
 @media (max-width: 768px) {
+  body { font-size: 1.05rem; line-height: 1.7; }
+  .section { padding-block: var(--space-16); }
+  .container { padding-inline: var(--space-6); }
+  .display-heading { line-height: 1.15; letter-spacing: -0.02em; }
   .article-featured { padding: var(--space-6); }
   .article-featured-excerpt { padding-left: var(--space-3); }
   .newsletter-input-row { flex-direction: column; border: none; border-radius: var(--radius-md); }
