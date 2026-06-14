@@ -28,40 +28,40 @@
 
 :root {
 
-  /* Warm Earthy Theme */
-  --clr-bg:              #FCFBF8;
-  --clr-surface:         #F3F0E9;
-  --clr-surface-alt:     #EBE5D9;
-  --clr-surface-raised:  #F3F0E9;
-  --clr-border:          #EBE5D9;
-  --clr-border-subtle:   #F3F0E9;
+  /* Corporate Blue Theme */
+  --clr-bg:              #F7F9FC;
+  --clr-surface:         #FFFFFF;
+  --clr-surface-alt:     #EEF2F7;
+  --clr-surface-raised:  #FFFFFF;
+  --clr-border:          #D5DDE5;
+  --clr-border-subtle:   #E8EDF2;
 
-  --clr-text-primary:    #2C241B;
-  --clr-text-body:       #4A4238;
-  --clr-text-muted:      #736B60;
-  --clr-text-placeholder:#A69F93;
-  --clr-text-on-accent:  #FCFBF8;
+  --clr-text-primary:    #0F172A;
+  --clr-text-body:       #334155;
+  --clr-text-muted:      #64748B;
+  --clr-text-placeholder:#94A3B8;
+  --clr-text-on-accent:  #FFFFFF;
 
-  /* Warm Terracotta Accent */
-  --clr-accent:          #B86B52;
-  --clr-accent-hover:    #96543E;
-  --clr-accent-mid:      #D48D75;
-  --clr-accent-light:    #F5EBE8;
-  --clr-accent-glow:     rgba(184, 107, 82, 0.08);
-  --clr-accent-border:   rgba(184, 107, 82, 0.20);
+  /* Corporate Blue Accent */
+  --clr-accent:          #2563EB;
+  --clr-accent-hover:    #1D4ED8;
+  --clr-accent-mid:      #60A5FA;
+  --clr-accent-light:    #EFF6FF;
+  --clr-accent-glow:     rgba(37, 99, 235, 0.10);
+  --clr-accent-border:   rgba(37, 99, 235, 0.25);
 
-  --clr-cta:             #2C241B;
-  --clr-cta-hover:       #1A150F;
-  --clr-cta-text:        #FCFBF8;
+  --clr-cta:             #2563EB;
+  --clr-cta-hover:       #1D4ED8;
+  --clr-cta-text:        #FFFFFF;
 
-  --clr-dark-hero:       #111315;
-  --clr-dark-surface:    #1A1D21;
-  --clr-dark-border:     rgba(255, 255, 255, 0.06);
+  --clr-dark-hero:       #0F172A;
+  --clr-dark-surface:    #1E293B;
+  --clr-dark-border:     rgba(255, 255, 255, 0.08);
 
-  --clr-success:         #2F7C4E;
-  --clr-success-bg:      #EEF6F0;
-  --clr-error:           #A83232;
-  --clr-error-bg:        #FCEEEE;
+  --clr-success:         #16A34A;
+  --clr-success-bg:      #F0FDF4;
+  --clr-error:           #DC2626;
+  --clr-error-bg:        #FEF2F2;
 
   /* --- TYPOGRAPHY --- */
   --font-sans:    'Inter', system-ui, -apple-system, sans-serif;
@@ -113,14 +113,14 @@
   --space-28:  7rem;
   --space-32:  8rem;
 
-  /* --- SHADOWS (Extremely subtle/minimal) --- */
-  --shadow-xs:     0 1px 2px rgba(0, 0, 0, 0.02);
-  --shadow-sm:     0 2px 4px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.02);
-  --shadow-md:     0 4px 8px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.02);
-  --shadow-lg:     0 12px 24px rgba(0, 0, 0, 0.05), 0 4px 8px rgba(0, 0, 0, 0.03);
-  --shadow-xl:     0 24px 48px rgba(0, 0, 0, 0.06), 0 8px 16px rgba(0, 0, 0, 0.04);
-  --shadow-accent: 0 4px 16px rgba(74, 107, 117, 0.10);
-  --shadow-nav:    0 1px 0 var(--clr-border), 0 4px 16px rgba(0, 0, 0, 0.03);
+  /* --- SHADOWS (Professional depth) --- */
+  --shadow-xs:     0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-sm:     0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md:     0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -1px rgba(15, 23, 42, 0.04);
+  --shadow-lg:     0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -2px rgba(15, 23, 42, 0.04);
+  --shadow-xl:     0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 10px 10px -5px rgba(15, 23, 42, 0.03);
+  --shadow-accent: 0 4px 14px rgba(37, 99, 235, 0.15);
+  --shadow-nav:    0 1px 0 var(--clr-border), 0 4px 16px rgba(15, 23, 42, 0.04);
 
   /* --- BORDER RADIUS (Rounded/premium edges) --- */
   --radius-sm:   4px;
@@ -540,15 +540,17 @@ button,
 
 /* Outline button */
 .btn-outline {
-  background-color: transparent;
+  background-color: var(--clr-surface);
   border-color: var(--clr-border);
   color: var(--clr-text-primary);
+  box-shadow: var(--shadow-xs);
 }
 
 .btn-outline:hover {
-  background-color: var(--clr-surface-alt);
-  border-color: var(--clr-accent-border);
+  background-color: var(--clr-accent-light);
+  border-color: var(--clr-accent);
   color: var(--clr-accent);
+  box-shadow: var(--shadow-sm);
   transform: translateY(-1px);
 }
 
